@@ -1,6 +1,7 @@
 
 git init
 git add .
+#every time you commit
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/tushar102182/my-git-code.git
