@@ -1,0 +1,27 @@
+nav{
+    display:flex;
+    text-decoration: none;
+
+}
+.footer{
+    text-align: center;
+}
+ul{
+    display:flex;
+    gap:50px;
+    
+}
+li a{
+    text-decoration:none;
+
+
+}
+
+
+.flex {
+    display: flex;
+    border: 2px solid rgb(255, 200, 71);
+    gap : 50px;
+    height: 150px;
+
+width: 200px;}

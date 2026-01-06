@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4tak2</title>
+    <style>
+        .full{
+            margin:20px;
+        }
+        .area{
+            display:flex; gap: 20px;
+            margin: 20px 10px;
+        }
+        #msg1{
+            margin-left:130px;
+        }
+        #msg2{
+            margin-left:28px;
+        }
+        #msg3{
+            margin-left:4px;
+        }
+        .select select{
+            height:25px;
+            width:100px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="full">
+        <h3>Storytelling Contest</h3>
+        <div class="area">
+            <label for="msg1" style="display:block; margin-top:5px;">How was the story:</label>
+            <textarea cols="30" rows="2" placeholder="Type Here.." name="" id="msg1"></textarea>
+
+        </div>
+        <div class="area">
+            <label for="msg2" style="display:block; margin-top:5px;">Which part did you enjoyed most? :</label>
+            <textarea cols="30" rows="2" name="" id="msg2" placeholder="Type Here.."></textarea>
+
+        </div>
+        <div class="area">
+            <label for="msg3" style="display:block; margin-top:5px;">How much did you enjoyed the movie :</label>
+            <textarea cols="30" rows="2" placeholder="Type Here.." name="" id="msg3"></textarea>
+
+        </div>
+        <div class="select">
+            <label for="inp1"> Rate the Story</label><br>
+            <select name="" id="inp1">
+                <option value="">Very good    </option>
+              
+                <option value="">Good</option>
+            
+                <option value="">Not Bad </option>
+              
+                <option value="">Bad</option>
+            </select>
+            
+            <button style="margin-top:9px;display: block;">
+                Submit
+            </button>
+        </div>
+
+
+    </div>
+
+    
+</body>
+</html>

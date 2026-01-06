@@ -1,0 +1,13 @@
+nav ul{
+    display: flex;
+    gap:40px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li :hover{
+    background-color:lightgray;
+}
